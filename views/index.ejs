@@ -1,11 +1,61 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-  </body>
+<!doctype html>
+<html lang="pt-br">
+
+<%- include('./partials/head.ejs'); %>
+
+
+<body>
+  <!--NAVBAR-->
+  <header>
+    <ul class="nav nav-tabs">
+      <li class="nav-item">
+        <a class="nav-link active" href="#">Home</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Minhas Redes</a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Ação</a>
+          <a class="dropdown-item" href="#">Outra ação</a>
+          <a class="dropdown-item" href="#">Algo mais aqui</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Link isolado</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Desativado</a>
+      </li>
+    </ul>
+  </header>
+  <!--NAVBAR-->
+  
+  <!--Main da Pagina-->
+  <main>
+    <div class="container">
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Botão dropdown
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="#">Alguma ação</a>
+          <a class="dropdown-item" href="#">Outra ação</a>
+          <a class="dropdown-item" href="#">Alguma coisa aqui</a>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!--Main da Pagina-->
+
+  <!--Footer-->
+  <footer>
+
+  </footer>
+  <!--Footer-->
+  <!-- Bootstrap JS NÃO EXCLUIR-->
+  <%- include('./partials/bootstrapscript.ejs'); %>
+
+</body>
+
 </html>
