@@ -491,6 +491,10 @@ a:hover {
   align-items: center;
 }
 
+.justificado {
+  text-align: justify;
+}
+
 .navbar li {
   position: relative;
 }
