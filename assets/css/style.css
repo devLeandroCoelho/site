@@ -51,9 +51,7 @@ a:hover {
   text-decoration: none;
   color: #4e4e4e;
 }
-.lead {
-  text-align: justify;
-}
+
 .box-shadow, .paralax-mf, .service-box, .work-box, .card-blog {
   box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
 }
@@ -491,13 +489,6 @@ a:hover {
   display: flex;
   list-style: none;
   align-items: center;
-}
-
-.justificado {
-  text-align: justify;
-}
-.lead {
-  text-align: justify;
 }
 
 .navbar li {
