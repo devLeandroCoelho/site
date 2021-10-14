@@ -481,6 +481,7 @@ a:hover {
 */
 .navbar {
   padding: 0;
+  backdrop-filter: blur(6px);
 }
 
 .navbar ul {
